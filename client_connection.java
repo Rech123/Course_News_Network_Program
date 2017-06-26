@@ -13,13 +13,9 @@ public class connection {
 
         Scanner sc = new Scanner(System.in);
         try {
-          //  Socket connection_proxy = new Socket("192.168.0.102",9409);
-          //  BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(connection_proxy.getInputStream()));
-          //  String Serve_ip_address =bufferedReader.readLine();
-          //  bufferedReader.close();
+          
 
-
-            Socket client =new Socket("192.168.0.102",9109);
+            Socket client =new Socket("IP Address",9109);
             System.out.println("connection");
 
             PrintStream out = new PrintStream(client.getOutputStream(),true);
