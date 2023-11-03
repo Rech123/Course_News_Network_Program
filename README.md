@@ -1,4 +1,5 @@
 # Course_News_Network_Program
+this code sample is concept proof of using TCP/IP between client and server
 the non networking part of this program follows observer design pattern 
 where the networking part based on TCP/IP Protocol 
 the server in src folder : perform 3 operation :
